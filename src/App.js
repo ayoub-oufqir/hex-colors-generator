@@ -63,6 +63,7 @@ function App() {
         type="number"
         className="p-2 md:p-4 w-3/6 rounded-full focus-visible:outline-gray-200"
         onInput={handleChange}
+        placeholder="Type the number of colors you want to generate"
       />
       <div>
         <ColoredCards colorsArrayState={colorsArrayState} />
